@@ -12,15 +12,15 @@ const MakeAppoinment = () => {
       <div className="flex-1 hidden lg:block">
         <img className="mt-[-150px]" src={doctor} alt="doctor" />
       </div>
-      <div className="flex-1">
+      <div className="flex-1  ">
         <h3 className="text-xl text-primary font-bold">Appoinment</h3>
-        <h2 className="text-3xl text-white">Make an Appoinment Today</h2>
-        <p className="text-white">
+        <h2 className="text-3xl text-white py-5">Make an Appoinment Today</h2>
+        <p className="text-white py-5">
           is simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry's standard dummy text ever since the
           1500s,{" "}
         </p>
-        <PrimaryButton>Get Appoinment</PrimaryButton>
+        <PrimaryButton className="mb-5">Get Appoinment</PrimaryButton>
       </div>
     </section>
   );
