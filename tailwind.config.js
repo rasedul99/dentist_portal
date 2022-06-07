@@ -7,16 +7,11 @@ module.exports = {
     themes: [
       {
         dentisttheme: {
-          primary: "#152639",
-
-          secondary: "#FED28E",
-
-          accent: "#37CDBE",
-
-          neutral: "#3D4451",
-
-          "base-100": "#FFFFFF",
-
+          primary: "#0FCFEC",
+          secondary: "#19D3AE",
+          accent: "#3A4256",
+          neutral: "#3d4451",
+          "base-100": "#ffffff",
           info: "#3ABFF8",
 
           success: "#36D399",
